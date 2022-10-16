@@ -16,7 +16,6 @@ namespace OtripleS.Web.Api.Services.Foundations.Students
     public partial class StudentService : IStudentService
     {
         private readonly IStorageBroker storageBroker;
-
         private readonly IDateTimeBroker dateTimeBroker;
         private readonly ILoggingBroker loggingBroker;
 
